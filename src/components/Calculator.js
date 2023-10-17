@@ -8,7 +8,7 @@ const Calculator = () => {
     const [result, setResult] = useState('');
     const [memory, setMemory] = useState(0);
     const [isOn, setIsOn] = useState(true)
-    const [isDarkMode, setIsDarkMode] = useState(false);
+    const [isDarkMode, setIsDarkMode] = useState(true);
 
     const handleDigitClick = (digit) => () => {
         if (!isOn) return;
